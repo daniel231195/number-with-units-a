@@ -10,7 +10,7 @@ namespace ariel {
 
 
     ostream& operator<<(ostream& out, const NumberWithUnits& num){
-        out << "the number is : " << num.number << " ,the type is : " << num.type << "]";
+        out << "the number is : " << num.number << " ,the type is : " << num.type << endl;
         return out;
     }
     istream& operator>>(istream& in, NumberWithUnits& num){
